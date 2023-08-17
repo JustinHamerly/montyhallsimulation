@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Monty Hall Demo</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>Monty Hall Demo</h1>
+  </header>
+  <main>
+    <div id="doors">
+      <div class="door" id="1">
+      </div>
+      <div class="door" id="2">
+      </div>
+      <div class="door" id="3">
+      </div>
+    </div>
+    <div id="interact">
+      <div id="gameButtons">
+        <div id="swap" class="button">
+          SWAP
+        </div>
+        <div id="stay" class="button">
+          STAY
+        </div>
+        <div id="nextTrial" class="button">Next Trial</div>
+      </div>
+      <div id="stats">
+        <div id="buttons">
+          <div id="reset" class="button">Reset</div>
+        </div>
+        <div id="statdisplay">
+          <h2>Round: <span id="roundText">0</span></h2>
+          <h2>Wins: <span id="winsText">0</span></h2>
+          <h2>Losses: <span id="lossesText">0</span></h2>
+        </div>
+        <div id="key">
+
+
+          <h3>KEY</h3>
+          <div id="keyitems">
+    
+            <div class="keyitem">
+              <h4>closed</h4>
+              <div class="keydoor" id="closed"></div>
+            </div>
+            <div class="keyitem">
+              <h4>selected</h4>
+              <div class="keydoor" id="selected"></div>
+            </div>
+            <div class="keyitem">
+              <h4>revealed zonk</h4>
+              <div class="keydoor" id="revealed"></div>
+            </div>
+            <div class="keyitem">
+              <h4>winning door</h4>
+              <div class="keydoor" id="correct"></div>
+            </div>
+            <div class="keyitem">
+              <h4>selected incorrect door</h4>
+              <div class="keydoor" id="incorrect"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+  </main>
+  <footer>
+    <h3>Justin Hamerly 2023</h3>
+    <script src="index.js"></script>
+  </footer>
+  </script>
+</body>
+
+</html>
